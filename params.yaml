@@ -1,11 +1,8 @@
-# The parameters "input", "output", "reference" and "primer" are the absolute paths. Do not include the "/" at the end of the paths.
-input          : "/blue/bphl-florida/dongyibo/Dev_DaytonaPb/hifireads_dem"
-probe     : "/blue/bphl-florida/dongyibo/Dev_DaytonaPb/enrichment_probes"
-output    : "/blue/bphl-florida/dongyibo/Dev_DaytonaPb/output"
-reference      : "/blue/bphl-florida/dongyibo/Dev_DaytonaPb/reference"
-#primer    : "/blue/bphl-florida/dongyibo/Dev_DaytonaPb/primers"
-# specify if input amplicons were fragmented. If yes, the parameter setting is "frag". If no, the parameter setting is "no_frag". (default: frag)
-#frag : "frag"
+# The parameters are the absolute paths. Do not include the "/" at the end of the paths.
+input          : "/full_path_to/Dev_DaytonaPb/hifireads_dem"
+probe     : "/full_path_to/Dev_DaytonaPb/enrichment_probes"
+output    : "/full_path_to/Dev_DaytonaPb/output"
+reference      : "/full_path_to/Dev_DaytonaPb/reference"
 # comma separated list of SOTCs to screen, default as "S:L452R,S:E484K"
 sotc : "S:L452R,S:E484K"
 
