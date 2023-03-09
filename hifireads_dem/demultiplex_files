@@ -1,0 +1,1 @@
+Dased on M13barcodes, demultiplex HiFi reads files in bam format should be outputted in this folder. One bam file per barcode. 
