@@ -1,0 +1,12 @@
+How to install smrtlink only tools:
+
+1. Download smrt link v11.0 from PacBio website (https://www.pacb.com/support/software-downloads/) 
+     Introduction documents can alo be download from : 
+         1) SMRT Link software installation (https://www.pacb.com/wp-content/uploads/SMRT_Link_Installation_v11.0.pdf)  
+         2) SMRT Tools reference guide (https://www.pacb.com/wp-content/uploads/SMRT_Tools_Reference_Guide_v11.0.pdf)
+
+2. Unzip and Install the software to your location:
+                  ./smrtlink_11.0.0.146107.run --rootdir ./smrtlink_11 --smrttools-only
+
+3. After installation, all tools, such as pbcromwell, can be used in command line.
+
