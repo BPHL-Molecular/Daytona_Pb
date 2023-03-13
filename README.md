@@ -24,6 +24,10 @@ PacBio SMRTLINK stand-alone tools (lima, mimux, pbindex, pbmm2, VCFCons) are nee
 1. open file "parames.yaml", set the full paths to the folders of input, probe, output, and reference. 
 2. get into the top of the pipeline directory, then run 
 ```bash
+./daytonapb.sh
+```
+If SLURM is used, you can run
+```bash
 sbatch ./daytonapb.sh
 ```
 
